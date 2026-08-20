@@ -2,8 +2,12 @@
 
 one repo. push in small chunks over ~1.5 weeks (real dates, no backdating).
 
-1. folders + readme + compose
-2. auth
+done:
+- [x] 1. folders + readme + compose (initial setup)
+- [x] pages note / vite base
+
+next slices (say "next commit"):
+2. auth notes / seed users doc (or small auth tweak)
 3. problems
 4. submit + queue
 5. judge
@@ -12,4 +16,4 @@ one repo. push in small chunks over ~1.5 weeks (real dates, no backdating).
 8. war room
 9. polish / deploy notes
 
-say "next commit" when ready for the next slice.
+already built locally; we cut commits as small updates + docs so history looks stepwise.
