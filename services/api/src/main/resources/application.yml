@@ -1,0 +1,41 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/oj?options=-c%20TimeZone=UTC
+    username: oj
+    password: oj
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    open-in-view: false
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: UTC
+  rabbitmq:
+    host: localhost
+    username: oj
+    password: oj
+  data:
+    redis:
+      host: localhost
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+app:
+  jwt:
+    secret: change-me-to-a-long-secret-key-for-oj-dev-only-32chars
+    expiration-ms: 86400000
+  cors:
+    origins: http://localhost:5173
+  queues:
+    practice: oj.judge.practice
+    war: oj.judge.war

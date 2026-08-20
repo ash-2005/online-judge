@@ -1,0 +1,15 @@
+**/target/
+**/node_modules/
+**/dist/
+.git/
+.idea/
+.vscode/
+*.iml
+**/.DS_Store
+*.log
+tools/
+docs/
+agent-transcripts/
+apps/web/node_modules/
+**/*.md
+!README.md
