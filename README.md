@@ -4,7 +4,13 @@ College project. Submit code for problems and get AC/WA/TLE etc.
 
 Stack: Spring Boot (API + judge worker), React, Postgres, RabbitMQ, Redis.
 
-## Run
+## Important about the GitHub Pages link
+
+`https://ash-2005.github.io/online-judge/` can only host the **frontend** (static files).
+The API + judge + database need a real server (your PC with docker, or Render/Railway later).
+So the Pages site is the UI; login/submit work only when the API is running somewhere.
+
+## Run locally (full app)
 
 ```bash
 docker compose up -d
