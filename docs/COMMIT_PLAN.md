@@ -7,9 +7,9 @@ done:
 - [x] pages note / vite base
 - [x] pages deploy notes + script
 - [x] 2. auth notes / seed users doc
+- [x] 3. problems
 
 next slices (say "next commit"):
-3. problems
 4. submit + queue
 5. judge
 6. react pages
