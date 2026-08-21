@@ -1,20 +1,38 @@
-# commit plan
+# 1-week GitHub push plan
 
-one repo. push in small chunks over ~1.5 weeks (real dates, no backdating).
+App is already built. This plan is for **honest daily commits** (no fake dates).
+Aim: finish public history within **7 days**. Author on GitHub: Ashmit only.
 
-done:
-- [x] 1. folders + readme + compose (initial setup)
-- [x] pages note / vite base
-- [x] pages deploy notes + script
-- [x] 2. auth notes / seed users doc
-- [x] 3. problems
+## Day map (example)
 
-next slices (say "next commit"):
-4. submit + queue
-5. judge
-6. react pages
-7. discussion / company tags
-8. war room
-9. polish / deploy notes
+| Day | Theme | What to push (small, real) |
+|-----|--------|----------------------------|
+| 1 | Foundation | Done: initial setup |
+| 2 | Pages / auth notes | Done: pages + auth docs |
+| 3 | Problems | Done: problems docs |
+| **4** | Docs pack A | Architecture + PROJECT_STATUS + setup/api/db/testing (+ this plan) |
+| **5** | Docs pack B | Milestones 01–05 READMEs + decisions 001–003 |
+| **6** | Docs pack C | Milestones 06–10 + submit/judge notes if missing |
+| **7** | Polish | README polish / tiny UI fix / testing note / release milestone |
 
-already built locally; we cut commits as small updates + docs so history looks stepwise.
+If you want **fewer** pushes: merge Day 4–5 into one commit, Day 6–7 into one.
+
+## Already on `main`
+
+1. `505f144` initial project setup
+2. `351493d` github pages note + vite base
+3. `3b03520` pages deploy notes
+4. `d20ee8e` auth docs
+5. `d9ab450` problems docs
+
+## How to push each day
+
+Say **“do next commit”** — slice the next row, commit as Ashmit (no Cursor co-author), push `main`.
+
+Optional later: cloud API host, then CI workflow (needs `workflow` scope).
+
+## Do not
+
+- Backdate commits
+- Dump every file in one mega-commit if you want a week-long story
+- Put secrets in git
